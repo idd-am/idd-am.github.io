@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Livvic|PT+Sans+Narrow&display=swap');
 body{
-  background-color: lightblue;
+  background-color: #CEDBF3;
 
 }
 img{
@@ -13,17 +13,62 @@ img{
   }
   h3{
     text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-shadow: 0 0 3px lightblue;
   }
 h1{
   text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0 0 3px lightblue;
 }
 h2{
   text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 0 0 3px lightblue;
 }
-ul{
-  background-color: red;
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu{
+  background-color:#366ECE;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  list-style-type: none;
   text-align: center;
+  border-radius: 8px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  padding: 20px 20px;
+  text-shadow: 0 0 3px #FF0000;
+}
+header{
+  background-color: #1A4EA6;
+  border-radius: 8px;
+}
+p{
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+
+}
+li :hover{
+  background-color: lightblue;
+  padding: 8px 8px;
+  border-radius: 8px;
+}
+.apply {
+  text-align: center;
+  margin: 2em 0;
+  font-size: 1.4em;
+  text-shadow: 0 0 3px #FF0000;
+}
+.apply a {
+ background-color: #366ECE;
+ padding: 0.25em 0.5em;
+ border-radius: 8px;
 }
