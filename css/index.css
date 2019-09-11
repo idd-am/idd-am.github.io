@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+body{
+  background-color: lightblue;
+
+}
+img{
+ border-radius: 8px;
+ height: 200px;
+ width: 20%;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  h3{
+    text-align: center;
+  }
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+ul{
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  list-style-type: none;
+  text-align: center;
+}
