@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Livvic|PT+Sans+Narrow&display=swap');
 body{
-  background-image: linear-gradient(rgb(30, 107, 241),rgb(115, 193, 219));
+  background-image: linear-gradient(rgb(163, 183, 247),rgb(115, 193, 219));
 
 }
  header img{
@@ -170,4 +170,14 @@ header li :hover{
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     
+  }
+  .footerlist{
+    background-color: #1A4EA6;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr   ;
+    color: whitesmoke;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
   }
